@@ -1694,7 +1694,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 10, 2026",
+    "lastUpdated": "Last updated: July 20, 2026",
     "section": {
       "responsable": {
         "title": "Data controller",
@@ -1715,13 +1715,16 @@
         "item7": "Anonymized usage patterns (access frequency, not content)",
         "item8": "Telegram ID (if you link your account)",
         "item9": "Subscription data managed by Stripe (we don't store payment data)",
-        "outro1": "We don't collect location data, biometric data or sensitive information beyond what you choose to share in conversations."
+        "outro1": "We don't collect location data. Nor do we use your voice or your image to identify you or to infer how you feel: if you send a voice note, it is stored as message content, nothing more. We do generate, through automated analysis of the <strong>text</strong> of your messages, an estimate of your emotional state: we treat it as <strong>special category data (health)</strong>, with the reinforced safeguards that requires.",
+        "item10": "Emotional profile automatically inferred by the AI from your messages (estimated emotional state, dominant pattern, energy level, trend and risk level)",
+        "item11": "Voice notes you send to the chat (stored as part of the message). Microphone dictation is different: your browser transcribes it and that audio never leaves your device"
       },
       "baseJuridica": {
         "title": "Legal basis for processing",
         "item1": "<strong>Performance of contract</strong> (art. 6.1.b GDPR): We need your data to provide the service you've requested.",
         "item2": "<strong>Consent</strong> (art. 6.1.a GDPR): For marketing communications and optional features like the family portal.",
-        "item3": "<strong>Legitimate interest</strong> (art. 6.1.f GDPR): To improve the service through anonymized analytics and to detect crisis situations."
+        "item3": "<strong>Legitimate interest</strong> (art. 6.1.f GDPR): To improve the service through anonymized analytics and to detect crisis situations.",
+        "item4": "<strong>Explicit consent</strong> (art. 9.2.a GDPR): To process the estimate of your emotional state, which constitutes health data. You can withdraw it at any time by deleting your account or writing to us."
       },
       "finalidad": {
         "title": "How we use your data",
@@ -1730,7 +1733,18 @@
         "item3": "To detect situations of emotional risk and activate crisis protocols",
         "item4": "To send you account-related communications (reminders, weekly summaries)",
         "item5": "To generate anonymized statistics that improve the service",
-        "outro1": "We don't sell, transfer or share your information with third parties for commercial or advertising purposes."
+        "outro1": "We don't sell, transfer or share your information with third parties for commercial or advertising purposes.",
+        "item6": "To adapt how we accompany you to the emotional state estimated by the AI"
+      },
+      "inteligenciaArtificial": {
+        "title": "Artificial intelligence and automated decisions",
+        "intro": "In compliance with the European AI Act (Regulation EU 2024/1689) we inform you of the following:",
+        "item1": "<strong>You are talking to an artificial intelligence</strong>, supervised by a human team of psychologists, mentors and coaches. We will never lead you to believe a person is typing in real time.",
+        "item2": "<strong>The AI estimates your emotional state from the text</strong> of your messages. Never from the sound of your voice, your face or any biometric data — and only to adapt how it accompanies you.",
+        "item3": "<strong>That estimate can be wrong.</strong> It is a working hypothesis, not a diagnosis. You can review it in \"What we know about you\" and delete it along with your account.",
+        "item4": "<strong>We do not make automated decisions</strong> producing legal effects concerning you or similarly significantly affecting you (art. 22 GDPR). The only automation with consequences is crisis risk detection, which triggers support protocols and human review.",
+        "item5": "<strong>In educational and workplace settings we do not show your individual emotional state</strong> to teachers or employers. We only share safety indicators (crisis risk) and activity data.",
+        "outro1": "The service is a tool for support and self-knowledge. <strong>It is not a medical device and does not replace therapy, diagnosis or medical care.</strong>"
       },
       "terceros": {
         "title": "Providers and third parties",

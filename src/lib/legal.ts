@@ -11,7 +11,7 @@ export type CrisisSupportResource = {
 /// `User.consentVersion` al aceptar. Cuando se publique un texto nuevo
 /// (cambios materiales en /terms o /privacy), incrementar este valor —
 /// los usuarios con versión anterior podrán ver un re-consent flow.
-export const CURRENT_CONSENT_VERSION = "1.1";
+export const CURRENT_CONSENT_VERSION = "1.2";
 
 export const PRODUCT_DISCLAIMERS = [
   "Tres Mil Millones de Latidos no sustituye terapia, diagnostico, atencion medica ni intervencion psicologica de emergencia.",

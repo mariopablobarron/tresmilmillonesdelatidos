@@ -1694,7 +1694,7 @@
   },
   "privacy": {
     "title": "Datenschutzrichtlinie",
-    "lastUpdated": "Zuletzt aktualisiert: 10. April 2026",
+    "lastUpdated": "Zuletzt aktualisiert: 20. Juli 2026",
     "section": {
       "responsable": {
         "title": "Verantwortlicher für die Datenverarbeitung",
@@ -1715,13 +1715,16 @@
         "item7": "Anonymisierte Nutzungsmuster (Zugriffshäufigkeit, kein Inhalt)",
         "item8": "Telegram-ID (falls du dein Konto verknüpfst)",
         "item9": "Abonnementdaten verwaltet von Stripe (wir speichern keine Zahlungsdaten)",
-        "outro1": "Wir erfassen keine Standortdaten, biometrischen Daten oder sensible Informationen über das hinaus, was du freiwillig in Gesprächen teilst."
+        "outro1": "Wir erheben keine Standortdaten. Wir verwenden auch weder deine Stimme noch dein Bild, um dich zu identifizieren oder abzuleiten, wie du dich fühlst: Wenn du eine Sprachnachricht sendest, wird sie als Nachrichteninhalt gespeichert, mehr nicht. Wir erzeugen jedoch durch die automatische Analyse des <strong>Textes</strong> deiner Nachrichten eine Einschätzung deines emotionalen Zustands: Wir behandeln sie als <strong>Daten besonderer Kategorien (Gesundheit)</strong> mit den dafür erforderlichen verstärkten Garantien.",
+        "item10": "Emotionales Profil, das die KI automatisch aus deinen Nachrichten ableitet (geschätzter emotionaler Zustand, dominantes Muster, Energieniveau, Tendenz und Risikostufe)",
+        "item11": "Sprachnachrichten, die du im Chat sendest (werden als Teil der Nachricht gespeichert). Das Diktat über das Mikrofon ist etwas anderes: Dein Browser transkribiert es und dieses Audio verlässt dein Gerät nie"
       },
       "baseJuridica": {
         "title": "Rechtsgrundlage der Verarbeitung",
         "item1": "<strong>Erfüllung eines Vertrags</strong> (Art. 6 Abs. 1 lit. b DSGVO): Wir benötigen deine Daten, um dir den angeforderten Service bereitzustellen.",
         "item2": "<strong>Einwilligung</strong> (Art. 6 Abs. 1 lit. a DSGVO): Für Marketing-Mitteilungen und optionale Funktionen wie das Familienportal.",
-        "item3": "<strong>Berechtigtes Interesse</strong> (Art. 6 Abs. 1 lit. f DSGVO): Zur Verbesserung des Services durch anonymisierte Analysen und zur Erkennung von Krisensituationen."
+        "item3": "<strong>Berechtigtes Interesse</strong> (Art. 6 Abs. 1 lit. f DSGVO): Zur Verbesserung des Services durch anonymisierte Analysen und zur Erkennung von Krisensituationen.",
+        "item4": "<strong>Ausdrückliche Einwilligung</strong> (Art. 9.2.a DSGVO): Für die Verarbeitung der Einschätzung deines emotionalen Zustands, die ein Gesundheitsdatum darstellt. Du kannst sie jederzeit widerrufen, indem du dein Konto löschst oder uns schreibst."
       },
       "finalidad": {
         "title": "Wie wir deine Daten nutzen",
@@ -1730,7 +1733,18 @@
         "item3": "Um emotionale Risikosituationen zu erkennen und Krisenprotokolle zu aktivieren",
         "item4": "Um dir kontobezogene Mitteilungen zu senden (Erinnerungen, wöchentliche Zusammenfassungen)",
         "item5": "Um anonymisierte Statistiken zu generieren, die den Service verbessern",
-        "outro1": "Wir verkaufen, geben ab oder teilen deine Informationen nicht mit Dritten für kommerzielle oder Werbezwecke."
+        "outro1": "Wir verkaufen, geben ab oder teilen deine Informationen nicht mit Dritten für kommerzielle oder Werbezwecke.",
+        "item6": "Um die Begleitung an den von der KI geschätzten emotionalen Zustand anzupassen"
+      },
+      "inteligenciaArtificial": {
+        "title": "Künstliche Intelligenz und automatisierte Entscheidungen",
+        "intro": "In Erfüllung der europäischen KI-Verordnung (Verordnung EU 2024/1689) informieren wir dich über Folgendes:",
+        "item1": "<strong>Du sprichst mit einer künstlichen Intelligenz</strong>, die von einem menschlichen Team aus Psychologen, Mentoren und Coaches beaufsichtigt wird. Wir werden dich nie glauben lassen, dass eine Person in Echtzeit schreibt.",
+        "item2": "<strong>Die KI schätzt deinen emotionalen Zustand anhand des Textes</strong> deiner Nachrichten ein. Niemals anhand des Klangs deiner Stimme, deines Gesichts oder biometrischer Daten — und ausschließlich, um die Begleitung anzupassen.",
+        "item3": "<strong>Diese Einschätzung kann falsch sein.</strong> Sie ist eine Arbeitshypothese, keine Diagnose. Du kannst sie unter „Was wir über dich wissen“ einsehen und zusammen mit deinem Konto löschen.",
+        "item4": "<strong>Wir treffen keine automatisierten Entscheidungen</strong>, die dir gegenüber rechtliche Wirkung entfalten oder dich in ähnlicher Weise erheblich beeinträchtigen (Art. 22 DSGVO). Die einzige Automatisierung mit Folgen ist die Erkennung von Krisenrisiken, die Hilfsprotokolle und eine menschliche Überprüfung auslöst.",
+        "item5": "<strong>In Bildungs- und Arbeitskontexten zeigen wir deinen individuellen emotionalen Zustand nicht</strong> an Lehrkräfte oder Arbeitgeber. Wir teilen nur Sicherheitsindikatoren (Krisenrisiko) und Aktivitätsdaten.",
+        "outro1": "Der Dienst ist ein Werkzeug zur Begleitung und Selbsterkenntnis. <strong>Er ist kein Medizinprodukt und ersetzt weder Therapie noch Diagnose oder medizinische Versorgung.</strong>"
       },
       "terceros": {
         "title": "Anbieter und Dritte",

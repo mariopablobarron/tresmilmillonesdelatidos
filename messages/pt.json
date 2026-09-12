@@ -1694,7 +1694,7 @@
   },
   "privacy": {
     "title": "Política de Privacidade",
-    "lastUpdated": "Última atualização: 10 de abril de 2026",
+    "lastUpdated": "Última atualização: 20 de julho de 2026",
     "section": {
       "responsable": {
         "title": "Responsável pelo tratamento",
@@ -1715,13 +1715,16 @@
         "item7": "Padrões de utilização anonimizados (frequência de acesso, não o conteúdo)",
         "item8": "ID de Telegram (se vinculares a tua conta)",
         "item9": "Dados de subscrição geridos pela Stripe (não armazenamos dados de pagamento)",
-        "outro1": "Não recolhemos dados de localização, dados biométricos nem informação sensível para além do que escolhes partilhar nas conversas."
+        "outro1": "Não recolhemos dados de localização. Também não usamos a tua voz nem a tua imagem para te identificar ou para deduzir como te sentes: se enviares uma nota de voz, fica guardada como conteúdo da mensagem, nada mais. Geramos, através de análise automática do <strong>texto</strong> das tuas mensagens, uma estimativa do teu estado emocional: tratamo-la como <strong>dado de categoria especial (saúde)</strong>, com as garantias reforçadas que isso exige.",
+        "item10": "Perfil emocional inferido automaticamente pela IA a partir das tuas mensagens (estado emocional estimado, padrão dominante, nível de energia, tendência e nível de risco)",
+        "item11": "Notas de voz que envias no chat (guardadas como parte da mensagem). O ditado por microfone é diferente: é transcrito pelo teu navegador e esse áudio nunca sai do teu dispositivo"
       },
       "baseJuridica": {
         "title": "Base jurídica do tratamento",
         "item1": "<strong>Execução do contrato</strong> (art. 6.º, n.º 1, al. b) RGPD): Precisamos dos teus dados para te prestar o serviço que solicitaste.",
         "item2": "<strong>Consentimento</strong> (art. 6.º, n.º 1, al. a) RGPD): Para comunicações de marketing e funcionalidades opcionais como o portal familiar.",
-        "item3": "<strong>Interesse legítimo</strong> (art. 6.º, n.º 1, al. f) RGPD): Para melhorar o serviço através de análises anonimizadas e para detetar situações de crise."
+        "item3": "<strong>Interesse legítimo</strong> (art. 6.º, n.º 1, al. f) RGPD): Para melhorar o serviço através de análises anonimizadas e para detetar situações de crise.",
+        "item4": "<strong>Consentimento explícito</strong> (art. 9.2.a RGPD): Para tratar a estimativa do teu estado emocional, que constitui dado de saúde. Podes retirá-lo a qualquer momento apagando a tua conta ou escrevendo-nos."
       },
       "finalidad": {
         "title": "Como usamos os teus dados",
@@ -1730,7 +1733,18 @@
         "item3": "Para detetar situações de risco emocional e ativar protocolos de crise",
         "item4": "Para te enviar comunicações relacionadas com a tua conta (lembretes, resumos semanais)",
         "item5": "Para gerar estatísticas anonimizadas que melhorem o serviço",
-        "outro1": "Não vendemos, cedemos nem partilhamos a tua informação com terceiros para fins comerciais ou publicitários."
+        "outro1": "Não vendemos, cedemos nem partilhamos a tua informação com terceiros para fins comerciais ou publicitários.",
+        "item6": "Para adaptar o acompanhamento ao teu estado emocional estimado pela IA"
+      },
+      "inteligenciaArtificial": {
+        "title": "Inteligência artificial e decisões automatizadas",
+        "intro": "Em cumprimento do Regulamento europeu de IA (Regulamento UE 2024/1689) informamos-te do seguinte:",
+        "item1": "<strong>Estás a falar com uma inteligência artificial</strong>, supervisionada por uma equipa humana de psicólogos, mentores e coaches. Nunca te faremos crer que há uma pessoa a escrever em tempo real.",
+        "item2": "<strong>A IA estima o teu estado emocional a partir do texto</strong> das tuas mensagens. Nunca a partir do som da tua voz, do teu rosto ou de qualquer dado biométrico — e apenas para adaptar como te acompanha.",
+        "item3": "<strong>Essa estimativa pode estar errada.</strong> É uma hipótese de trabalho, não um diagnóstico. Podes consultá-la em «O que sabemos de ti» e apagá-la junto com a tua conta.",
+        "item4": "<strong>Não tomamos decisões automatizadas</strong> que produzam efeitos jurídicos sobre ti nem que te afetem significativamente de modo similar (art. 22 RGPD). A única automatização com consequências é a deteção de risco de crise, que ativa protocolos de ajuda e revisão humana.",
+        "item5": "<strong>Em contextos educativos e laborais não mostramos o teu estado emocional individual</strong> a professores nem a empresas. Apenas partilhamos indicadores de segurança (risco de crise) e dados de atividade.",
+        "outro1": "O serviço é uma ferramenta de acompanhamento e autoconhecimento. <strong>Não é um dispositivo médico nem substitui terapia, diagnóstico ou cuidados médicos.</strong>"
       },
       "terceros": {
         "title": "Fornecedores e terceiros",

@@ -20,6 +20,7 @@ jest.mock("@/lib/logger", () => ({
 
 import { NextRequest } from "next/server";
 import { POST } from "./route";
+import { CURRENT_CONSENT_VERSION } from "@/lib/legal";
 import {
   attachSessionCookie,
   clearSessionCookie,
@@ -68,7 +69,7 @@ describe("POST /api/user/consent", () => {
     expect(response.status).toBe(200);
     expect(body.success).toBe(true);
     expect(body.consentGiven).toBe(true);
-    expect(body.consentVersion).toBe("1.1");
+    expect(body.consentVersion).toBe(CURRENT_CONSENT_VERSION);
     const persistedAt = new Date(body.consentAt).getTime();
     expect(persistedAt).toBeGreaterThanOrEqual(before);
     expect(persistedAt).toBeLessThanOrEqual(after);
@@ -76,7 +77,7 @@ describe("POST /api/user/consent", () => {
     const updateArg = update.mock.calls[0][0];
     expect(updateArg.where).toEqual({ id: "usr_consent_1" });
     expect(updateArg.data.consentGiven).toBe(true);
-    expect(updateArg.data.consentVersion).toBe("1.1");
+    expect(updateArg.data.consentVersion).toBe(CURRENT_CONSENT_VERSION);
     expect(updateArg.data.source).toBe("web");
     expect(updateArg.data.consentAt).toBeInstanceOf(Date);
     expect(attachSessionCookie).toHaveBeenCalledWith(response, "session-token");
