@@ -2884,6 +2884,10 @@
       "impulso": {
         "label": "Schwung 21d",
         "req": "Tag 21"
+      },
+      "itinerarios": {
+        "label": "Routen",
+        "req": "Tag 7"
       }
     },
     "settings": "Einstellungen",

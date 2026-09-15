@@ -2884,6 +2884,10 @@
       "impulso": {
         "label": "Impulso 21d",
         "req": "Dia 21"
+      },
+      "itinerarios": {
+        "label": "Itinerários",
+        "req": "Dia 7"
       }
     },
     "settings": "Definições",

@@ -90,6 +90,7 @@ const NAV_ITEMS_CONFIG = [
   { key: "respirar" as const, href: "/app/respirar", icon: "🌬", tour: undefined },
   { key: "logros" as const, href: "/app/logros", icon: "🏆", tour: undefined },
   { key: "impulso" as const, href: "/impulso", icon: "⚡", tour: "modo-impulso" },
+  { key: "itinerarios" as const, href: "/journey", icon: "🧭", tour: undefined },
 ];
 
 export default function Sidebar({
@@ -133,6 +134,7 @@ export default function Sidebar({
     respirar: streak >= 3,
     logros: streak >= 7,
     impulso: daysSinceSignup >= 21,
+    itinerarios: daysSinceSignup >= 7,
   }), [daysSinceSignup, streak]);
 
   const unlockedCount = Object.values(unlocks).filter(Boolean).length;
